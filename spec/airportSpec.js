@@ -23,5 +23,4 @@ describe('Airport', function() {
 			airport.land(plane);
 			expect(airport.planes()).toContain(plane);
 		});
-	 });
-
+});

@@ -15,4 +15,5 @@ Info
 ----
 
 * Our work on the translation of the Airport Challenge in JavaScript
+  - Using contructors to simulate classes
 

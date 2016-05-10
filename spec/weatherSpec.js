@@ -1,7 +1,6 @@
 'use strict';
 
 describe('Weather', function() {
-	
 	var weather;
 	
 	it('Can be sunny, windy, rainy or stormy',function() {

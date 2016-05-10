@@ -10,4 +10,8 @@ describe('Plane',function () {
 	it('has a name',function () {
 		expect(plane.name()).toEqual("737");
 	});
+  
+  it('returns the name as a string',function () {
+    expect(plane.name()).toEqual(jasmine.any(String));
+  })
 });

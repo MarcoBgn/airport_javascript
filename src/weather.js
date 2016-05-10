@@ -1,7 +1,6 @@
 'use strict';
 
 var Weather = function() {};
- 
 
 Weather.prototype.condition = function() {
 	var condition = ['sunny', 'stormy', 'windy', 'rainy'];

@@ -33,7 +33,3 @@ Airport.prototype.takeOff = function(plane) {
 		return plane.name() + " took off from Airport";
 	}
 };
-
-
-
-

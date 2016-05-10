@@ -1,0 +1,29 @@
+.header {
+  background-color: lightgray;
+  position: absolute;
+  left: 33px;
+  min-height: 50px;
+  width: 250px;
+  
+}
+
+.container {
+  position: absolute;
+  top: 152px; left: 33px; bottom: 30px;
+}
+
+.side_margin {
+  position: absolute;
+  top: 0; left: 0; bottom: 0;
+  background-color: lightblue;
+  width: 30px;
+}
+
+.commands {
+  width: 20px;
+  height: 20px;
+}
+
+.display {
+  
+}

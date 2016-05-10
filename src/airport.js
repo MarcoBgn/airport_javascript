@@ -11,7 +11,7 @@ Airport.prototype.planes = function () {
 };
 Airport.prototype.land = function(plane) {
 	if (this.isStormy() === false) {
-	this._hangar += plane;
+	this._hangar.push(plane);
 	return plane.name() + " landed into Airport";
    } else {
    	return plane.name() + " could not land into Airport";

@@ -14,10 +14,12 @@
     
     <div class="container">
         <div class="commands">
-          <button onclick="displayHangar()">Check Hangar</button>
+          <button class="command" onclick="displayHangar()">Check Hangar</button>
+          <button class="command" onclick="displayLanded()">Land Plane</button>
         </div>
-        <div class="display">
-          <p id="hangar_display">--</p>
+        <div class="displays">
+          <div class="display"><p id="hangar_display">--</p></div>
+          <div class="display"><p id="landed_message">--</p></div>
         </div>
     </div>
     

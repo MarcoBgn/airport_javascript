@@ -19,11 +19,16 @@
   width: 30px;
 }
 
-.commands {
-  width: 20px;
-  height: 20px;
+.commands .command {
+  padding: 5px 5px 5px 5px;
+  width: 150px;
+  height: 50px;
+  display: inline;
 }
 
-.display {
-  
+.displays .display {
+  padding: 5px 5px 5px 5px;
+  width: 150px;
+  height: 50px;
+  display: inline-block;
 }

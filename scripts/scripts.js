@@ -11,4 +11,5 @@ function displayLanded() {
   var landed = document.getElementById('landed_message'), 
   plane = new Plane();
   landed.innerHTML = (airport.land(plane));
+  displayHangar();
 }

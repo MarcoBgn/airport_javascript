@@ -1,8 +1,8 @@
 'use strict';
 
 function Airport() {
-	var weather = new Weather();
-	this._checkWeather = weather.condition();
+	this._weather = new Weather();
+	this._checkWeather = this._weather.condition();
 	this._hangar = []
 };
 		
